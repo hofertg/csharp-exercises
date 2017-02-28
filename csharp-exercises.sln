@@ -19,13 +19,15 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GradebookArray", "Gradebook
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{AB8120D7-66F6-4862-BB6C-51E3C09E99B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldVariant", "ConsoleApplication1\HelloWorldVariant.csproj", "{39DF258C-9B09-4569-AF2F-599A7214D21B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle", "ConsoleApplication2\Rectangle.csproj", "{994A4572-F468-4378-85AF-9503147F0AF4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MileageCalculator", "MileageCalculator\MileageCalculator.csproj", "{96487077-BA71-45EB-A94E-3F5777891E9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliceSearch", "AliceSearch\AliceSearch.csproj", "{A6EE65CE-BF06-4453-9778-BDDA8F599DD5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CircleArea", "CircleArea\CircleArea.xproj", "{AAE32E5F-5D3C-49BF-9225-3CDBA5C04A99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldVariant", "HelloWorldVariant\HelloWorldVariant.csproj", "{6056FE83-3836-4CCC-85B5-2B5491F7F4AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleArea", "RectangleArea\RectangleArea.csproj", "{5094D2B8-6474-4BC6-8C75-8C2697BB39DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,14 +67,6 @@ Global
 		{AB8120D7-66F6-4862-BB6C-51E3C09E99B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB8120D7-66F6-4862-BB6C-51E3C09E99B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB8120D7-66F6-4862-BB6C-51E3C09E99B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{39DF258C-9B09-4569-AF2F-599A7214D21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39DF258C-9B09-4569-AF2F-599A7214D21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39DF258C-9B09-4569-AF2F-599A7214D21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39DF258C-9B09-4569-AF2F-599A7214D21B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{994A4572-F468-4378-85AF-9503147F0AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{994A4572-F468-4378-85AF-9503147F0AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{994A4572-F468-4378-85AF-9503147F0AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{994A4572-F468-4378-85AF-9503147F0AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{96487077-BA71-45EB-A94E-3F5777891E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{96487077-BA71-45EB-A94E-3F5777891E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96487077-BA71-45EB-A94E-3F5777891E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,6 +75,18 @@ Global
 		{A6EE65CE-BF06-4453-9778-BDDA8F599DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6EE65CE-BF06-4453-9778-BDDA8F599DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6EE65CE-BF06-4453-9778-BDDA8F599DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE32E5F-5D3C-49BF-9225-3CDBA5C04A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE32E5F-5D3C-49BF-9225-3CDBA5C04A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE32E5F-5D3C-49BF-9225-3CDBA5C04A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE32E5F-5D3C-49BF-9225-3CDBA5C04A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6056FE83-3836-4CCC-85B5-2B5491F7F4AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6056FE83-3836-4CCC-85B5-2B5491F7F4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6056FE83-3836-4CCC-85B5-2B5491F7F4AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6056FE83-3836-4CCC-85B5-2B5491F7F4AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5094D2B8-6474-4BC6-8C75-8C2697BB39DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5094D2B8-6474-4BC6-8C75-8C2697BB39DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5094D2B8-6474-4BC6-8C75-8C2697BB39DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5094D2B8-6474-4BC6-8C75-8C2697BB39DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
