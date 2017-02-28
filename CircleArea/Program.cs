@@ -11,7 +11,6 @@ namespace CircleArea
         {
             double radius;
             double area;
-            double pi = 3.14;
             string input = "";
 
             Console.WriteLine("We shall compute the area of a circle");
