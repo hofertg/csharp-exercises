@@ -23,7 +23,7 @@ namespace CircleArea
                 input = Console.ReadLine();
             }
 
-            area = pi * radius * radius;
+            area = Math.PI * radius * radius;
 
             Console.WriteLine(string.Format("The area of a circle of radius {0} is: {1}", radius, area));
 
